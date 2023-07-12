@@ -3,4 +3,11 @@ function rotateArray(arr: number[], n: number) {
   return rotatedArray;
 }
 
-console.log(rotateArray([1, 2, 3, 4, 5], 1));
+function uniqueElements(arr: number[]) {
+  const unique = Array.from(new Set(arr));
+  return unique;
+}
+
+console.log(rotateArray([1, 2, 3, 4, 5], 2));
+
+console.log(uniqueElements([1, 2, 2, 3, 4, 4, 5]));
