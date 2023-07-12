@@ -14,7 +14,5 @@ function commonElements(arr1: number[], arr2: number[]) {
 }
 
 console.log(rotateArray([1, 2, 3, 4, 5], 2));
-
 console.log(uniqueElements([1, 2, 2, 3, 4, 4, 5]));
-
 console.log(commonElements([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]));
